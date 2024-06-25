@@ -4,7 +4,7 @@ var genre = document.querySelector('genre');
 var category = document.querySelector('category');
 var random = document.querySelector('random');
 
-let myKey = "14qErICaQmH8qifkhSEFeKpgjdDrJWYAGk-IZVAe-1DI"; // 스프레드시트 KEY
+let myKey = "1c35_f_AFwTF5M31-3sAAcqYAk0JHEbuFHplhsbBrOBk"; // 스프레드시트 KEY
 
 let noCover = `/dalpi_musicbook/profile.png`;
 let gid = "1303736034" // 목록이 있는 시트의 gid
