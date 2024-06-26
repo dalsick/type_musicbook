@@ -1,11 +1,16 @@
 :root {
+	/* 원하는 폰트가 있을 시, 맨 앞에 추가하면 된다. 다만, font.css에서 웹 폰트를 불러오는 것을 추가해두어야 한다. */
     --font-sans: 'Pretendard-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	--font-serif: 'RIDIBatang', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	--font-script: 'Cafe24Shiningstar', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	--font-heading: 'SOYOMapleBoldTTF', 'GmarketSansMedium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	--font-sans-light: 'Pretendard-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	
-    --profile-img: url(/dalpi_musicbook/profile.png);
+	/* 만약 다운로드해서 저장해둔 프로필 이미지를 사용한다면 */
+    /* --profile-img: url(/type_musicbook/profile.png); */
+
+	/* 만약 치지직 등의 인터넷 사이트에 있는 프로필 이미지 주소를 그대로 사용한다면 */
+	--profile-img: url(https://nng-phinf.pstatic.net/MjAyNDA0MjhfMTk2/MDAxNzE0MjM0NzM1NjI5.UWIavZQSKqWGROmxrtp2T653-AjuiPv23itiDTSKuMQg.gzg50RNCNfVigmamrA70FXueOHTHBBlw45VVjblFOicg.PNG/99999999999.png);
 
     --main-bg-color: #E4E3E3;
 	--primary-color: #fed136;
@@ -14,22 +19,22 @@
 
     --default-text-color: #000000;
 
-    --body-background: #ffffffee;
+    --body-background:  #ffffffee;
 
-
-    --item-background: #ffffff99;
-    --item-text-color: #000000;
+    --item-background:  #ffffff99;
+    --item-text-color:  #000000;
 	--toast-background: #ffd6e6;
     --toast-text-color: #000000;
 
 	/* 배경 색 - 그라디언트 */
-	--bg-gradient-1:	#f1bafb;
-	--bg-gradient-2:	#fecdf6;
-	--bg-gradient-3:	#f59ec0;
-	--bg-gradient-4:	#fe7df1;
+	/* 노래책 주인의 취향대로 바꾸어 주면 됩니다. */
+	--bg-gradient-1:	#a7bbbc;
+	--bg-gradient-2:	#aaa19e; 
+	--bg-gradient-3:	#f3f7ff; 
+	--bg-gradient-4:	#5d72d8;
 	
 
-    --site-name: "달피의 노래책"
+    --site-name: "테 이프의 노래책"
 }
 
 :root {
